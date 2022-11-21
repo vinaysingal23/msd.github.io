@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    height: 500vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #191a30;
+    color: white;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header h1 {
+    position: relative;
+    top: 7px;
+    left: 12px;
+    font-size: 30px;
+}
+
+header p {
+    display: flex;
+    font-size: 8px;
+    letter-spacing: 6px;
+    position: relative;
+    bottom: 4px;
+    left: 170px;
+
+}
+
+header nav {
+    word-spacing: 30px;
+    text-transform: uppercase;
+    display: grid;
+    justify-content: end;
+    font-size: 20px;
+    position: relative;
+    bottom: 32px;
+    right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    display: inline-flex;
+    color: white;
+    word-spacing: 300px;
+}
+
+a :hover {
+    border-bottom: 2px solid white;
+}
+
+.hero-section {
+    height: 100vh;
+}
+
+.hero-section img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-section h2 {
+    color: white;
+    font-size: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    bottom: 350px;
+    left: 04px;
+}
+
+.hero-section p {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+    position: relative;
+    bottom: 340px;
+    left: 430px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.biography h4 {
+    margin: 20px 30px 0 30px;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.biography {
+    height: 80vh;
+
+}
+
+.biography h1 {
+    position: relative;
+    left: 390px;
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+.biography img {
+    position: relative;
+    left: 990px;
+    bottom: 80px;
+    width: 370px;
+    height: 450px;
+}
+
+.biography p {
+    width: 1060px;
+    position: relative;
+    bottom: 440px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-left: 20px;
+    word-spacing: 8px;
+    line-height: 25px;
+}
+
+.photoes {
+    display: inline-flex;
+}
+
+.pic1 {
+    background-color: rgb(202, 196, 196);
+    width: 310px;
+    height: 300px;
+    margin-left: 110px;
+}
+
+.pic1 img {
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    border: 3px 5px 5px rgba(1, 1, 1, 0.3);
+}
+
+.pic1 :hover {
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+    transition-delay: 0.2s;
+}
+
+.test {
+    background-color: #1c1379;
+    color: white;
+    height: 400px;
+}
+
+.test h2 {
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+
+.test p {
+    margin: 30px 30px 0 30px;
+    line-height: 29px;
+    letter-spacing: 1.5px;
+}
+
+.videosection p {
+    position: relative;
+    top: 643px;
+    background-color: black;
+    color: white;
+    width: 730px;
+    font-size: 50px;
+    left: 640px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.videosection img {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.csk_section {
+    height: 100vh;
+}
+
+.csk_section img {
+    width: 700px;
+    height: 500px;
+    position: relative;
+    top: 30px;
+    right: 140px;
+}
+
+.csk_section h1 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 190px;
+    top: 67px;
+}
+
+.csk_section p {
+    width: 700px;
+    position: relative;
+    left: 530px;
+    bottom: 420px;
+    line-height: 23px;
+    letter-spacing: 2.5px;
+}
+
+.footer_sec {
+    height: 420px;
+}
+
+.footer_sec img {
+    width: 100vw;
+    height: 420px;
+}
+
+.footer_sec p {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 240px;
+    left: 700px;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    background-color: #1c1379;
+    color: white;
+    height: 70px;
+}
+
+footer p {
+    position: relative;
+    top: 10px;
+}
+
+@media (max-width:600px) {
+    body {
+        max-width: 100vw;
+        height: 5260px;
+
+    }
+
+    header {
+        background-color: #191a30;
+        position: unset;
+        height: 60px;
+        width: 100vw;
+    }
+
+    header h1 {
+        font-size: 32px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    header p {
+        float: unset;
+        position: relative;
+        left: 90px;
+        top: 7px;
+        font-size: 8px;
+        letter-spacing: 12px;
+
+    }
+
+    nav ul {
+        width: 120px;
+        font-size: 18px;
+        float: end;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        top: 62px;
+        right: 110px;
+        gap: 20px;
+        list-style: none;
+        border-bottom: none;
+    }
+
+    .hero-section {
+        height: 68vh;
+    }
+
+    .hero-section img {
+        height: 550px;
+    }
+
+    .hero-section h2 {
+        font-size: 22px;
+    }
+
+    .hero-section p {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        left: 1px;
+        height: 250px;
+        font-size: 12px;
+        max-width: 360px;
+        display: fixed;
+    }
+
+    .biography {
+        height: 973px;
+        position: relative;
+        top: 99px;
+    }
+
+    .biography h4 {
+        width: 352px;
+        top: 15px;
+        position: relative;
+        right: 20px;
+    }
+
+    .biography h1 {
+        position: relative;
+        left: 25px;
+        margin-top: 12px;
+        font-size: 44px;
+        letter-spacing: 6px;
+        top: 10px;
+    }
+
+    .biography img {
+        display: none;
+    }
+
+    .biography p {
+        width: 335px;
+        font-size: 12px;
+        word-spacing: 1px;
+        position: relative;
+        top: 10px;
+    }
+
+    .photoes {
+        width: 120vw;
+        display: grid;
+        margin-right: 12px;
+        position: relative;
+        right: 83px;
+        gap: 17px;
+        top: 115px;
+    }
+
+    .test {
+        width: 100vw;
+        height: 872px;
+        position: relative;
+        top: 92px;
+    }
+
+    .test h2 {
+        font-size: 32px;
+        letter-spacing: 3px;
+    }
+
+    .test p {
+        font-size: 12px;
+        line-height: 21px;
+
+    }
+
+    .videosection {
+        position: relative;
+        top: 92px;
+    }
+
+    .videosection img {
+        margin-top: -58px;
+        height: 500px;
+    }
+
+    .videosection p {
+        display: hidden;
+    }
+
+    .csk_section {
+        width: 100vw;
+        height: 1100px;
+        position: relative;
+        top: 93px;
+    }
+
+    .csk_section h1 {
+        font-size: 45px;
+        position: relative;
+        left: 3px;
+        top: 12px;
+        letter-spacing: 2px;
+        font-weight: bolder;
+    }
+
+    .csk_section img {
+        width: 202px;
+        position: relative;
+        right: 42px;
+        height: 220px;
+    }
+
+    .csk_section p {
+        width: 230px;
+        position: relative;
+        left: 120px;
+        line-height: 18px;
+        font-size: 15px;
+        bottom: 200px;
+    }
+
+    .footer_sec {
+        height: 198px;
+        position: relative;
+        top: 192px;
+    }
+
+    .footer_sec img {
+        height: 201px;
+        width: 100vw;
+    }
+
+    .footer_sec p {
+        position: relative;
+        left: 165px;
+        font-size: 30px;
+        bottom: 94px;
+        font-weight: 100;
+        width: 190px;
+        /* font-size: 22px;
+        position: relative;
+        top: 240px;
+        background-color: purple; */
+    }
+
+    footer {
+        height: 50px;
+        font-size: 22px;
+        position: relative;
+        top: 192px;
+    }
+}
